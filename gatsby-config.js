@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
-  pathPrefix: "/snayerma",
+  pathPrefix: "/personal-site",
   plugins: [
     'gatsby-plugin-react-helmet',
     {
