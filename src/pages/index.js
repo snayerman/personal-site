@@ -17,6 +17,11 @@ import nfldb from '../images/nfldb.png'
 import physicssim from '../images/physicssim.png'
 import movielist from '../images/movielist.png'
 
+console.log(portrait);
+console.log(sqzee);
+console.log(movielist);
+console.log(physicssim);
+
 import './styles/index.css'
 
 const IndexPage = () => (
