@@ -1,0 +1,18 @@
+.cardContainer {
+   width: 250px;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.cardPadding {
+   padding-bottom: 150px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#companyName {
+   font-style: italic;
+   font-size: 22px;
+   font-weight: 600;
+}

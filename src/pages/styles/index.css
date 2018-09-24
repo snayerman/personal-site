@@ -1,0 +1,26 @@
+.content {
+   width: 40%;
+   height: 100%;
+   margin: 50px;
+   display: flex;
+   align-items: center;
+}
+
+.contentText { 
+   color: #fff;
+   padding-left: 25px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#portrait {
+   padding: 0px !important;
+   margin: 0px !important;
+   height: 150px;
+   border-radius: 50%;
+}
+
+.cardRow {
+   display: flex;
+   width: 80vw;
+   justify-content: space-around;
+}
