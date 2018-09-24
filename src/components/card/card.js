@@ -5,10 +5,10 @@ import './card.css'
 const Card = (props) => (
    <div className="cardPadding">
       <div className="cardContainer">
-         <img src={props.img} style={{width: "300px"}} />
+         <img src={props.img} style={props.height ? {width: "300px", height: props.height} : {width: "300px"}} />
       </div>
-      <div id="companyName">{props.company}</div>
-      <div>{props.position}</div>
+      <div id="companyName">{props.title}</div>
+      <div>{props.description}</div>
       <div style={{fontSize: "15px"}}>{props.time}</div>
    </div>
 )
