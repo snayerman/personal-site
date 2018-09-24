@@ -26,27 +26,27 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-178482739e0ca308eeab.js"
+    "url": "webpack-runtime-2f906acd90249df2118c.js"
   },
   {
-    "url": "app-bc14c3326fa19d836717.js"
+    "url": "app-fae85d547bd70f7faf64.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-7d05841fbe53a2d93ef9.js"
   },
   {
     "url": "index.html",
-    "revision": "8368fedf93ba2ee7dc80a63778b437be"
+    "revision": "89c479a328a1cea197eee27e7a4f588d"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "4fb7c1c3b0b0a35ab82ccffc097619ec"
+    "revision": "eaecba145e31fca3e5f9a1188a72ef5c"
   },
   {
     "url": "component---src-pages-index-js.287d6d95dfaac9908c4c.css"
   },
   {
-    "url": "component---src-pages-index-js-4728f5c717e1183471b3.js"
+    "url": "component---src-pages-index-js-e4c4281aa2ff9171e2c0.js"
   },
   {
     "url": "0-dcbfb10084182282dcf7.js"
@@ -77,7 +77,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/snayerma/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/personal-site/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
